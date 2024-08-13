@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>Site Réactif | Bootstrap</title>
+</head>
+<body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: crimson;">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <strong class="afrique">Afrique</strong><strong class="espoir">Espoir</strong><strong class="pepiniere">Pépinière</strong>  </a>
+      <div class="">
+       <strong class="text-white">+229 61 46 18 83</strong>
+      </div>
+  </nav>
+  <div class="nav-bottom">
+    <nav class="navbar navbar-expand-lg navbar-green " id="navbarr" style="background-color: white;">
+        <div class="container p-2">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"> <hr></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto  mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#services">Services</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Produits
+                </a>
+                <ul class="dropdown-menu fw-bold" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item fw-bold" href="#products">Graines du Palme</a></li>
+                  <li><a class="dropdown-item fw-bold" href="#products">Graines et Pepins D'Orange</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item fw-bold" href="#">Autres Produits</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+              
+            </form>
+          </div>
+        
+      </nav>
+  </div>
+    
+</header>
+<!-- slider  carousel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assets/images/orange.jpeg" class="d-block w-100" alt="Image d'une orange">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Une orange vive et un coco avec sa coque rugueuse.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/pepin.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./assets/images/papagne.jpeg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="borderSiler"></div>
+
+<div class="container">
+  <!-- services -->
+<div id="services">
+  <h1 class="text-center mt-4 mb-4">Nos Services</h1>
+  <!-- fomation -->
+  <div class="row">
+    <div class="col-lg-6">
+      <img src="./assets/images/formation.png" class="w-100 mt-2 mb-2"  alt="">
+    </div>
+    <div class="col-lg-6 ">
+      <h2>Formation de Nos Clients</h2>
+      <P >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quos amet. Ratione veritatis fugit quos odio aperiam quam porro. Nulla vero maxime molestiae tenetur cumque magnam, minus impedit quasi debitis.
+      Dolorum, nihil. Numquam qui labore quam minus est ea veritatis nam earum necessitatibus deleniti magni nobis quidem aliquam perspiciatis, placeat consectetur libero esse. Quos voluptatem quo, dolores magnam dicta asperiores.
+      Suscipit in, vel et ex illo quisquam ducimus accusantium sed impedit nulla ut. Iusto delectus animi error optio harum culpa saepe odit rerum ut. Corrupti perspiciatis nihil architecto ipsa eos?
+      Impedit asperiores aspernatur similique, maxime laudantium quasi, nisi deleniti minus ducimus alias dolorum, veniam qui odit itaque ullam!</P>
+    </div>
+  </div>
+
+</div>
+<!-- Productions et Vente des Pepins -->
+<div class="">
+  <h1 class="text-center mt-4 mb-4">Productions et Vente des Pepins</h1>
+  <!-- fomation -->
+  <div class="row">
+    <div class="col-lg-6 ">
+      <h2>Mecanisme de Production des Pepins</h2>
+      <P >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quos amet. Ratione veritatis fugit quos odio aperiam quam porro. Nulla vero maxime molestiae tenetur cumque magnam, minus impedit quasi debitis.
+      Dolorum, nihil. Numquam qui labore quam minus est ea veritatis nam earum necessitatibus deleniti magni nobis quidem aliquam perspiciatis, placeat consectetur libero esse. Quos voluptatem quo, dolores magnam dicta asperiores.
+      Suscipit in, vel et ex illo quisquam ducimus accusantium sed impedit nulla ut. Iusto delectus animi error optio harum culpa saepe odit rerum ut. Corrupti perspiciatis nihil architecto ipsa eos?
+      Impedit asperiores aspernatur similique, maxime laudantium quasi, nisi deleniti minus ducimus alias dolorum, veniam qui odit itaque ullam!</P>
+    </div>
+    <div class="col-lg-6">
+      <img src="./assets/images/19.png" class="w-100 mt-2 mb-2"  alt="">
+    </div>
+  </div>
+
+</div>
+   
+<!-- tous nos Produits -->
+ <div class="produits" id="products">
+  <h1 class="text-center mt-4 mb-4">Tous Nos Produits</h1>
+  
+     <div class="row">
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/1.webp" alt="Image 2" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/3.webp" alt="Image 3" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/5.webp" alt="Image 5" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/6.webp" alt="Image 1" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/7.webp" alt="Image 2" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/8.webp" alt="Image 3" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/9.webp" alt="Image 4" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/10.webp" alt="Image 5" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/12.webp" alt="Image 2" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/13.webp" alt="Image 3" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/14.webp" alt="Image 4" class="img-fluid">
+      </div>
+      <div class="col-md-2 col-sm-4 col-6 image-container">
+        <img src="./assets/images/15.webp" alt="Image 5" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+   <div class="">
+    <h1 class="text-center mt-4 mb-4">Nous Contacter</h1>
+    <div class="mb-3">
+      <input type="text" class="form-control" name="firstName" placeholder="Nom...">
+    </div>
+    <div class="mb-3">
+      <input type="text" class="form-control" name="lastName" placeholder="Prénoms...">
+    </div>
+    <div class="mb-3">
+      <input type="nomber" class="form-control" name="phone" placeholder="Numero De Téléphone...">
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" name="email" placeholder="Address Email...">
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" name="message" rows="3" placeholder="Votre Message..."></textarea>
+    </div>
+
+   </div>
+ </div>
+
+</div>
+
+<footer id="contact" class="bg-color-crimson text-center py-3" >
+<h5>copyright juillet 2024</h5>
+<p>Réalisé par M. AKPOLY Polinus; tous droits réservés.</p>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
